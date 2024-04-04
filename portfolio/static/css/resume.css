@@ -1,0 +1,33 @@
+.resume-section {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+.center-item {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+.heading {
+    border-bottom: 2px solid blue;
+    padding-bottom: 5px;
+}
+.contact-info {
+    margin-bottom: 20px;
+}
+.achievement {
+    margin-bottom: 10px;
+}
+.skills {
+    margin-bottom: 20px;
+}
+.projects {
+    margin-bottom: 20px;
+}
+.extracurricular {
+    margin-bottom: 20px;
+}
