@@ -1,0 +1,205 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Portfolio{% endblock %}
+{% block content %}
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#resume">Resume</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+<header class="bg-primary text-white text-center py-5">
+    <img src="https://via.placeholder.com/150" alt="Profile Image" class="rounded-circle mb-3" style='width:200px; height:200px;'>
+    <h1>Hafeez Ullah</h1>
+    <p>Full Stack Developer</p>
+    <div class="social-icons mt-3">
+      <a href="#" class="text-white mr-2 me-2"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#" class="text-white mr-2 me-2"><i class="fab fa-github"></i></a>
+      <a href="#" class="text-white mr-2 me-2"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="text-white mr-2 me-2"><i class="fab fa-twitter"></i></a>
+  </div>
+</header>
+
+<section id='about'>
+  <div class="container mt-4">
+    <div>
+      <h2>About</h2>
+      <p>I am a Python developer with a strong foundation in Django, full-stack development,
+        and a passion for creating efficient, scalable solutions. My experience extends beyond Python,
+        encompassing a broad range of technologies including JavaScript, Bootstrap, and Figma.
+        Throughout my career, I have successfully completed numerous individual projects,
+        each serving as a testament to my ability to tackle complex challenges and deliver high-quality results.
+        I am always eager to explore new opportunities and challenges that will allow me to further hone my skills and contribute to innovative projects. 
+        Currently, I am actively seeking new opportunities where I can apply my expertise in Python and Django, and continue to grow as a full-stack developer.
+        I am excited about the prospect of tackling challenging problems and contributing to the success of future projects.
+    </p>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-lg-4" data-aos="fade-right">
+        <img src="https://via.placeholder.com/300" class="img-fluid" alt="Image">
+      </div>
+      <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+        <h3 class='text-primary'>Python &amp; Web Developer &amp; Software Developer &amp;Django &amp; Full-Stack.</h3>
+        <p>
+        </p>
+        <div class="row">
+          <div class="col-lg-6">
+            <ul class='list-unstyled'>
+              <li><i class="bi bi-chevron-right"></i> <strong>linkedin</strong> <span>www.example.com</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123455555</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                <span>hafeezullahhassan2019@gmail.com</span>
+
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <ul class='list-unstyled'>
+              <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BS Computer Science</span>
+              </li>
+              <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Turbat Kech,Balochistan,
+                  Pakistan</span></li>
+              </li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Opportunities</strong> <span>Available</span></li>
+            </ul>
+          </div>
+        </div>
+        <p>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section id="resume" class="resume-section" style='padding: 50px 0;'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto text-center">
+        <h1 class="">Hafeez Ullah</h1>
+        <p class="lead mb-5">Full Stack Developer</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="resume-item" style='margin-bottom:30px;'>
+          <h2 class="mb-4">Education</h2>
+          <p><strong>Bachelor's degree in Computer Science</strong></p>
+          <p>XYZ University</p>
+          <p>Graduated: May 20XX</p>
+        </div>
+        <div class="resume-item" style='margin-bottom:30px;'>
+          <h2 class="mb-4">Experience</h2>
+          <p><strong>Web Developer</strong></p>
+          <p>ABC Company</p>
+          <p>January 20XX - Present</p>
+          <p>Responsibilities:</p>
+          <ul>
+            <li>Developing and maintaining web applications using HTML, CSS, JavaScript, and Python</li>
+            <li>Collaborating with cross-functional teams to design, develop, and ship new features</li>
+            <li>Optimizing application for maximum speed and scalability</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="resume-item">
+          <h2 class="mb-4">Skills</h2>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Bootstrap</li>
+            <li>Responsive Design</li>
+            <li>Version Control (Git)</li>
+          </ul>
+        </div>
+        <div class="resume-item">
+          <h2 class="mb-4">Contact Information</h2>
+          <p><strong>Email:</strong> john.doe@example.com</p>
+          <p><strong>Phone:</strong> (123) 456-7890</p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/johndoe" target="_blank">linkedin.com/in/johndoe</a></p>
+          <p><strong>Portfolio:</strong> <a href="https://www.johndoe.com" target="_blank">johndoe.com</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="skills" class="py-5">
+  <div class="container">
+      <h2>Skills</h2>
+      <p>My technical skills include:</p>
+      <ul>
+          <li>Front-end Development: HTML, CSS, JavaScript, Bootstrap</li>
+          <li>Back-end Development: Python, Django, Flask</li>
+          <li>Database Management: PostgreSQL, MySQL</li>
+          <li>Version Control: Git</li>
+          <li>Other: Agile/Scrum, Test-Driven Development (TDD)</li>
+      </ul>
+  </div>
+</section>
+
+
+<section id="projects" class="py-5">
+  <div class="container">
+      <h2>Projects</h2>
+      <p>Here are some of the projects I've worked on:</p>
+      <div class="row">
+          <div class="col-md-4">
+              <h3>Project 1</h3>
+              <p>A brief description of Project 1.</p>
+          </div>
+          <div class="col-md-4">
+              <h3>Project 2</h3>
+              <p>A brief description of Project 2.</p>
+          </div>
+          <div class="col-md-4">
+              <h3>Project 3</h3>
+              <p>A brief description of Project 3.</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<section id="contact" class="py-5">
+  <div class="container">
+      <h2>Contact</h2>
+      <p>If you're interested in working together or have any questions, feel free to reach out:</p>
+      <ul>
+          <li>Email: hafeezullah@example.com</li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/hafeezullah" target="_blank">hafeezullah</a></li>
+          <li>Phone: +1 (123) 456-7890</li>
+      </ul>
+  </div>
+</section>
+
+{% include "footer.html" %}
+{% endblock content %}
